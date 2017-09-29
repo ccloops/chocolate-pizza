@@ -1,0 +1,74 @@
+* {
+  border: 1px solid red;
+}
+body {
+  margin: 30px auto;
+  margin-left: 30px;
+}
+
+header {
+  height: 100px;
+  width: 960px;
+  margin-left: 30px;
+}
+
+header nav h1 {
+  font-family: cursive;
+  font-size: 20px;
+}
+
+header nav p {
+  font-family: Arial;
+  font-size: 10px;
+  clear: left;
+}
+nav {
+  margin: 0 auto;
+}
+
+nav img, h1, p {
+  float: left;
+  margin-top: 15px;
+
+}
+
+nav ul {
+  text-align: right;
+  border: 2px solid green;
+}
+
+nav ul li {
+  display: inline-block;
+  border: 1px solid green;
+  padding: 0px;
+}
+
+main {
+  margin-left: 30px;
+}
+
+main h1 {
+  float: left;
+}
+
+section {
+  margin-left: 30px;
+}
+
+footer {
+  margin: 0px auto;
+  text-align: center;
+}
+
+#desserts {
+  float: left;
+  width: 100px;
+}
+
+#print {
+  float: right;
+}
+
+#pizza {
+  clear: both;
+}
