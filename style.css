@@ -1,74 +1,50 @@
-* {
-  border: 1px solid red;
-}
-body {
-  margin: 30px auto;
-  margin-left: 30px;
-}
-
 header {
   height: 100px;
   width: 960px;
-  margin-left: 30px;
+  margin-left: 80px;
 }
 
-header nav h1 {
-  font-family: cursive;
-  font-size: 20px;
-}
-
-header nav p {
-  font-family: Arial;
-  font-size: 10px;
-  clear: left;
-}
 nav {
-  margin: 0 auto;
+  width: 960px;
+  margin: 0px auto;
 }
 
-nav img, h1, p {
+header img {
   float: left;
-  margin-top: 15px;
-
 }
 
-nav ul {
-  text-align: right;
-  border: 2px solid green;
-}
-
-nav ul li {
-  display: inline-block;
-  border: 1px solid green;
-  padding: 0px;
+header nav ul li {
+  float: right;
+  margin-right: 0px;
 }
 
 main {
-  margin-left: 30px;
+  width: 960px;
+  margin: 30px auto;
 }
 
-main h1 {
+main ul li {
   float: left;
+  margin: 30px 30px 30px 0px;
 }
 
-section {
-  margin-left: 30px;
+header nav h1 {
+  font-family: yellowtail;
+  font-size: 20px;
 }
 
-footer {
-  margin: 0px auto;
-  text-align: center;
+#recipe1 {
+  width: 330px;
+  margin-left: 200px;
 }
 
-#desserts {
-  float: left;
-  width: 100px;
-}
-
-#print {
+#recipe2 {
+  width: 330px;
+  margin-left: 300px;
+  margin-right: 200px;
   float: right;
 }
 
-#pizza {
+#vanessa {
   clear: both;
 }
