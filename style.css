@@ -1,23 +1,42 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
 header {
-  height: 100px;
-  width: 960px;
-  margin-left: 80px;
+  margin-bottom: 15px;
 }
 
-nav {
-  width: 960px;
-  margin: 0px auto;
-}
-
-header img {
+header>img {
   float: left;
+  margin-right: 5px;
 }
 
-header nav ul li {
+header>h1 {
+  font-family: Yellowtail;
+  font-size: 20px;
+  margin: 0;
+}
+header>p {
+  font-family: Arial;
+  font-size: 10px;
+  margin: 0;
+}
+
+header>ul {
   float: right;
-  margin-right: 0px;
+  margin: 0px;
+  padding-left: 10px;
 }
 
+header li {
+  display: inline-block;
+  margin: 0px;
+}
+
+
+
+/*
 main {
   width: 960px;
   margin: 30px auto;
@@ -29,7 +48,7 @@ main ul li {
 }
 
 header nav h1 {
-  font-family: yellowtail;
+  font-family: Yellowtail;
   font-size: 20px;
 }
 
@@ -47,4 +66,4 @@ header nav h1 {
 
 #vanessa {
   clear: both;
-}
+}*/
