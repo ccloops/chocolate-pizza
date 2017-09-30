@@ -20,7 +20,7 @@ header>h1 {
 header>p {
   font-family: Arial;
   font-size: 10px;
-  margin: 0;
+  margin: 0px;
 }
 
 header>ul {
@@ -34,36 +34,47 @@ header li {
   margin: 0px;
 }
 
+hr {
+  height: 7px;
+background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+}
 
+section>h1 {
+  font-family: Anton;
+  margin-bottom: 2px;
+  padding: 2px;
+}
 
-/*
-main {
+section>h3 {
+  font-family: Arial;
+  font-size: 10px;
+  margin-top: 2px;
+  padding-top: 5px;
+  border: 2px solid green;
+}
+
+#title {
   width: 960px;
-  margin: 30px auto;
+  border: 2px solid red;
 }
 
-main ul li {
-  float: left;
-  margin: 30px 30px 30px 0px;
-}
-
-header nav h1 {
-  font-family: Yellowtail;
-  font-size: 20px;
-}
-
-#recipe1 {
-  width: 330px;
-  margin-left: 200px;
-}
-
-#recipe2 {
-  width: 330px;
-  margin-left: 300px;
-  margin-right: 200px;
+#print {
   float: right;
+  margin: 0px 0px 15px 0px;
 }
 
-#vanessa {
-  clear: both;
-}*/
+#printtext {
+  float: right;
+  font-family: Arial;
+  font-size: 10px;
+  margin: 0px 0px 15px 0px;
+}
+
+main img {
+  width: 960px;
+}
+
+main p {
+  text-indent: 30px;
+}
