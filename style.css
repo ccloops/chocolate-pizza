@@ -60,14 +60,14 @@ section>h3 {
 
 #print {
   float: right;
-  margin: 0px 0px 15px 0px;
+  margin: 50px 0px 15px 0px;
 }
 
 #printtext {
   float: right;
   font-family: Arial;
   font-size: 10px;
-  margin: 0px 0px 15px 0px;
+  margin: 50px 0px 15px 0px;
 }
 
 main img {
@@ -81,6 +81,7 @@ main p {
 #recipes {
   border: 2px solid white;
   background-image: url(images/list-bg.png);
+  box-shadow: 5px 5px 5px #888888;
   width: 960px;
 }
 
@@ -94,14 +95,8 @@ main p {
   margin-right: 200px;
 }
 
-#recipe2 {
-
-}
-
-
 #vanessa {
   clear: both;
-  border: 2px solid red;
   margin: 0;
 }
 
@@ -110,6 +105,7 @@ main p {
 }
 
 #button {
+  margin-top: 15px;
   float: right;
   background-color: #af4e0e;
   border: none;
