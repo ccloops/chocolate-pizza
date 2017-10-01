@@ -101,23 +101,3 @@ main p {
 #vanessa {
   clear: both;
 }
-
-#vanessa>img {
-  float: left;
-}
-
-#vanessa>button {
-  float: right;
-  background-color: #c16343;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-footer {
-  text-align: center;
-}
