@@ -1,55 +1,125 @@
-<<<<<<< HEAD
-body {
-  background: linear-gradient(#1d1d1d , #101010 );
-=======
 header {
   height: 100px;
+=======
+body {
   width: 960px;
-  margin-left: 80px;
+  margin: 0 auto;
 }
 
-nav {
-  width: 960px;
-  margin: 0px auto;
+header {
+  margin-bottom: 15px;
 }
 
-header img {
+header>img {
   float: left;
+  margin-right: 5px;
 }
 
-header nav ul li {
-  float: right;
-  margin-right: 0px;
-}
-
-main {
-  width: 960px;
-  margin: 30px auto;
-}
-
-main ul li {
-  float: left;
-  margin: 30px 30px 30px 0px;
-}
-
-header nav h1 {
-  font-family: yellowtail;
+header>h1 {
+  font-family: Yellowtail;
   font-size: 20px;
+  margin: 0;
+}
+header>p {
+  font-family: Arial;
+  font-size: 10px;
+  margin: 0px;
+}
+
+header>ul {
+  float: right;
+  margin: 0px;
+  padding-left: 10px;
+}
+
+header li {
+  display: inline-block;
+  margin: 0px;
+}
+
+hr {
+  height: 7px;
+background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+  clear: both;
+}
+
+section>h1 {
+  font-family: Anton;
+  margin-bottom: 2px;
+  padding: 2px;
+}
+
+section>h3 {
+  font-family: Arial;
+  font-size: 10px;
+  margin-top: 2px;
+  padding-top: 5px;
+}
+
+#title {
+  width: 960px;
+}
+
+#print {
+  float: right;
+  margin: 50px 0px 15px 0px;
+}
+
+#printtext {
+  float: right;
+  font-family: Arial;
+  font-size: 10px;
+  margin: 50px 0px 15px 0px;
+}
+
+main img {
+  width: 960px;
+}
+
+main p {
+  text-indent: 30px;
+}
+
+#recipes {
+  border: 2px solid white;
+  background-image: url(images/list-bg.png);
+  box-shadow: 5px 5px 5px #888888;
+  width: 960px;
+}
+
+#recipes li {
+  list-style-type: none;
 }
 
 #recipe1 {
-  width: 330px;
-  margin-left: 200px;
-}
-
-#recipe2 {
-  width: 330px;
-  margin-left: 300px;
+  float: left;
+  margin-left: 20px;
   margin-right: 200px;
-  float: right;
 }
 
 #vanessa {
   clear: both;
->>>>>>> 306e43ca8192a09506d975e5c272c62f6e267689
+  margin: 0;
+}
+
+#vanimg {
+  float: left;
+}
+
+#button {
+  margin-top: 15px;
+  float: right;
+  background-color: #af4e0e;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
 }
